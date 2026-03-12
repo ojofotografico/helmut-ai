@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Syne:wght@400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href=".src/css/main.css">
 </head>
 <body>
 
@@ -29,9 +29,290 @@
             </div>
         </div>
     </nav>
+    <section class="hero">
+    <canvas id="neural-canvas"></canvas>
+    
+    <div class="hero-content">
+        <div class="hero-badge" data-i18n="hero_badge">
+            <span class="pulse-dot"></span> Sistema Activo · v2.0
+            </div>
+                <h1 class="hero-title">
+                 <span class="glitch" data-text="HELMUT AI">HELMUT AI</span>
+        </h1>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Ingeniería de precisión aplicada a la inteligencia artificial.
+        </p>
+        <div class="hero-actions">
+            <a href="#servicios" class="btn-primary" data-i18n="hero_btn_main">Explorar Sistemas</a>
+            <a href="#contacto" class="btn-secondary" data-i18n="hero_btn_sec">Iniciar Briefing</a>
+        </div>
+    </div>
+    </section>
+        <div class="trust-band">
+    <div class="trust-container">
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span data-i18n="trust_iso">Certificación ISO 27001</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            <span data-i18n="trust_partner">Microsoft Solution Partner</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span data-i18n="trust_support">Soporte Élite 24/7</span>
+        </div>
+    </div>
+        </div>
+<section id="servicios" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="glitch" data-text="SERVICIOS" data-i18n="services_title">Servicios</h2>
+            <p data-i18n="services_subtitle">Soluciones de ingeniería visual y estratégica.</p>
+        </div>
+        
+        <div class="services-grid">
+            <article class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                </div>
+                <h3 data-i18n="service_1_title">Arquitectura de IA</h3>
+                <p data-i18n="service_1_desc">Diseño de infraestructuras inteligentes personalizadas.</p>
+                <div class="service-footer">
+                    <span class="service-tag">Core Tech</span>
+                </div>
+            </article>
 
-    <script src="js/theme.js"></script>
-    <script src="js/i18n.js"></script>
-    <script src="js/main.js"></script>
+            <article class="service-card featured">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h3 data-i18n="service_2_title">Desarrollo Pro</h3>
+                <p data-i18n="service_2_desc">Implementación de modelos de lenguaje y automatización.</p>
+                <div class="service-footer">
+                    <span class="service-tag">Deployment</span>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <h3 data-i18n="service_3_title">Academia</h3>
+                <p data-i18n="service_3_desc">Capacitación técnica para equipos de alto rendimiento.</p>
+                <div class="service-footer">
+                    <span class="service-tag">Education</span>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="portafolio" class="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="glitch" data-text="PORTAFOLIO" data-i18n="port_title">Portafolio</h2>
+            <p data-i18n="port_subtitle">Casos de éxito y despliegues estratégicos.</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="port-item">
+    <div class="port-img">
+        <img src="assets/img/helmut-ai-asesoria-informatica-analisis-datos.webp" 
+             alt="Especialista de Helmut AI brindando soporte técnico" 
+             loading="lazy">
+        <div class="port-overlay">
+            <div class="port-details">
+                <span class="port-category" data-i18n="port_1_cat">Soporte Élite</span>
+                <h4 data-i18n="port_1_name">Infraestructura IT</h4>
+                <p data-i18n="port_1_short">Optimización de sistemas y asistencia técnica 24/7.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="port-item">
+    <div class="port-img">
+        <img src="assets/img/helmut-ai-estrategia-ia-consultoria-tecnologica-global.webp" 
+     alt="Estrategia de IA, Consultoría Tecnológica, Estrategia de implementación de IA global - Helmut AI" 
+     loading="lazy">
+        
+        <div class="port-overlay">
+            <div class="port-details">
+                <span class="port-category" data-i18n="port_strategy_cat">Estrategia de IA</span>
+                
+                <h4 data-i18n="port_strategy_name">Estrategia de IA y Consultoría Tecnológica</h4>
+                
+                <p data-i18n="port_strategy_short">Estrategia de implementación de IA global.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="port-item">
+    <div class="port-img">
+        <img src="assets/img/helmut-ai-Despliegue-de-redes-neuronales-escalables.webp" 
+             alt="Infraestructura IT, Optimización de Servidores, Despliegue de Centros de Datos de Alta Disponibilidad - Helmut AI" 
+             loading="lazy">
+        
+        <div class="port-overlay">
+            <div class="port-details">
+                <span class="port-category" data-i18n="port_infra_cat">Infraestructura IT</span>
+                
+                <h4 data-i18n="port_infra_name">Optimización de Servidores de Alta Disponibilidad</h4>
+                
+                <p data-i18n="port_infra_short">Implementación y auditoría de centros de datos de misión crítica.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div> </section> <section id="academy" class="academy-section">
+ <section id="academy" class="academy-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 data-i18n="academy_title">Ecosistema de Soluciones</h2>
+            <p data-i18n="academy_subtitle">Desde la captación estratégica hasta la seguridad física de su infraestructura.</p>
+        </div>
+
+        <div class="services-academy-grid">
+            <div class="academy-card marketing-highlight">
+                <div class="card-badge">Marketing</div>
+                <h3 data-i18n="srv_marketing_name">Performance Marketing</h3>
+                <p data-i18n="srv_marketing_desc">Campañas de alta conversión en Google Ads y Meta Ads (Facebook/Instagram).</p>
+            </div>
+
+            <div class="academy-card marketing-highlight">
+                <div class="card-badge">Web Pro</div>
+                <h3 data-i18n="srv_web_name">Diseño Web Optimizado</h3>
+                <p data-i18n="srv_web_desc">Desarrollo centrado en Core Web Vitals, velocidad y conversión (UX/UI).</p>
+            </div>
+
+            <div class="academy-card infra-highlight">
+                <div class="card-badge">Seguridad</div>
+                <h3 data-i18n="srv_cctv_name">Seguridad Física de Servidores</h3>
+                <p data-i18n="srv_cctv_desc">Instalación de cámaras de seguridad y monitoreo en entornos de centros de datos.</p>
+            </div>
+
+            <div class="academy-card infra-highlight">
+                <div class="card-badge">Soporte</div>
+                <h3 data-i18n="srv_mac_name">Entornos Apple Pro</h3>
+                <p data-i18n="srv_mac_desc">Instalación y configuración de software especializado en sistemas MacBook.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 data-i18n="contact_title">Iniciar Briefing</h2>
+            <p data-i18n="contact_subtitle">Cuéntanos sobre tu proyecto y diseñemos una solución de precisión.</p>
+        </div>
+
+        <div class="contact-container">
+            <form id="contact-form" action="https://formspree.io/f/xojndolw" method="POST" class="glass-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" required placeholder="Ej. Helmut Schmidt">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">Correo Corporativo</label>
+                    <input type="email" id="email" name="email" required placeholder="nombre@empresa.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="service" data-i18n="form_service">Servicio de Interés</label>
+                    <select id="service" name="service">
+                        <option value="ai-strategy" data-i18n="opt_1">AI Strategy & Tech Consulting</option>
+                        <option value="data-analytics" data-i18n="opt_2">Data Analytics & Optimization</option>
+                        <option value="marketing" data-i18n="opt_3">Marketing Digital (Ads & Web)</option>
+                        <option value="infrastructure" data-i18n="opt_4">Infraestructura & CCTV</option>
+                        <option value="academy" data-i18n="opt_5">Helmut AI Academy</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message">Detalles del Proyecto</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Describe brevemente tus necesidades técnicas..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <span data-i18n="form_btn">Enviar Solicitud</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div id="form-loader" class="audit-loader" style="display: none;">
+    <div class="audit-item" id="step-1">
+        <i class="fas fa-circle-notch fa-spin"></i>
+        <span data-i18n="audit_1">Verificando Meta Pixel & API de Conversiones...</span>
+    </div>
+    <div class="audit-item" id="step-2">
+        <i class="fas fa-circle-notch fa-spin"></i>
+        <span data-i18n="audit_2">Sincronizando Google Tag Manager (G4)...</span>
+    </div>
+    <div class="audit-item" id="step-3">
+        <i class="fas fa-circle-notch fa-spin"></i>
+        <span data-i18n="audit_3">Validando eventos de conversión "Lead"...</span>
+    </div>
+    <div class="audit-success" id="final-step" style="display: none;">
+        <i class="fas fa-check-double"></i>
+        <span data-i18n="audit_success">¡Briefing enviado y optimizado!</span>
+    </div>
+</div>
+                <div id="form-status"></div>
+            </form>
+        </div>
+    </div>
+</section>
+</section>
+    <script src=".src/js/theme.js"></script>
+    <script src=".src/js/i18n.js"></script>
+    <script src=".src/js/main.js"></script>
+
+    <footer class="main-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col branding">
+                <h2 class="footer-logo">HELMUT<span>AI</span></h2>
+                <p data-i18n="footer_about">Ingeniería de precisión y consultoría estratégica en Inteligencia Artificial e infraestructura tecnológica global.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Navegación</h4>
+                <ul>
+                    <li><a href="#services" data-i18n="nav_services">Servicios</a></li>
+                    <li><a href="#portafolio" data-i18n="nav_portfolio">Portafolio</a></li>
+                    <li><a href="#academy" data-i18n="nav_academy">Academy</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Briefing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="footer_services_title">Especialidades</h4>
+                <ul>
+                    <li data-i18n="opt_1">Estrategia de IA</li>
+                    <li data-i18n="opt_3">Marketing Performance</li>
+                    <li data-i18n="opt_4">Infraestructura & CCTV</li>
+                    <li data-i18n="srv_mac_name">Entornos Apple Pro</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 HELMUT AI. <span data-i18n="footer_rights">Todos los derechos reservados.</span></p>
+            <div class="footer-legal">
+                <a href="#" data-i18n="footer_privacy">Privacidad</a>
+                <a href="#" data-i18n="footer_terms">Términos</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
