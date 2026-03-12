@@ -76,7 +76,9 @@ window.translations = {
         nav_portfolio: "Portafolio",
         nav_contact: "Briefing",
         ecosystem_title: "Ecosistema de Soluciones",
-        ecosystem_desc: "Desde la captación estratégica hasta la seguridad física de su infraestructura."
+        ecosystem_desc: "Desde la captación estratégica hasta la seguridad física de su infraestructura.",
+        meta_title: "Helmut AI — Ingeniería de Precisión",
+        meta_description: "Ecosistema digital de alta gama para la implementación de estrategias de IA y optimización de infraestructura global. Potenciando el futuro tecnológico."
     },
     en: {
         meta_title: "Helmut AI — Precision Engineering",
@@ -152,7 +154,9 @@ window.translations = {
         nav_portfolio: "Portfolio",
         nav_contact: "Briefing",
         ecosystem_title: "Solutions Ecosystem",
-        ecosystem_desc: "From strategic acquisition to the physical security of your infrastructure."
+        ecosystem_desc: "From strategic acquisition to the physical security of your infrastructure.",
+        meta_title: "Helmut AI — Precision Engineering",
+        meta_description: "High-end digital ecosystem for AI strategy implementation and global infrastructure optimization. Powering the technological future."
     }
 };
 

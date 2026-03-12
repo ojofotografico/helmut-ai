@@ -160,3 +160,18 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         });
     }, 5000); // Se envía tras completar el "checklist visual"
 });
+function changeLanguage(lang) {
+    const elements = document.querySelectorAll('[data-i18n]');
+    elements.forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const translation = translations[lang][key];
+
+        // Si es una etiqueta meta, cambiamos el atributo 'content'
+        if (el.tagName === 'META') {
+            el.setAttribute('content', translation);
+        } else {
+            // Para el resto (h1, p, span), cambiamos el texto
+            el.textContent = translation;
+        }
+    });
+}
